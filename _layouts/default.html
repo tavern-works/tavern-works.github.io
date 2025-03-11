@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo-glow">
+          <p style="left: 26px;">How</p><img
+            src="/assets/images/logo_trans_64.png"
+            alt="Logo"
+            style="height: 55%" /><p style="right: 0px;">Works</p>
+        </div>
+
+        <nav>
+          {% assign pages_in_order = site.pages | sort: "order" %}
+          {% for ordered in pages_in_order %}
+            {% if ordered.nest %}
+              {% if ordered.url == page.url %}
+                <h2 class="active">
+                  <a href="{{ordered.url}}">{{ ordered.title }}</a>
+                </h2>
+              {% else %}
+                <h2>
+                  <a href="{{ordered.url}}">{{ ordered.title }}</a>
+                </h2>
+              {% endif %}
+            {% else %}
+              {% if ordered.url == page.url %}
+                <h1 class="active">
+                  <a href="{{ordered.url}}">{{ ordered.title }}</a>
+                </h1>
+              {% else %}
+                <h1>
+                  <a href="{{ordered.url}}">{{ ordered.title }}</a>
+                </h1>
+              {% endif %}
+            {% endif %}
+            {{ active_page }}
+          {% endfor %}
+        </nav>
+
+      </header>
+      <section>
+
+        {{ content }}
+
+      </section>
+      <footer>
+        <small>Hosted on
+          <a href="{{ site.github.repository_url }}">GitHub Pages</a>
+          &mdash; Theme by
+          <a href="https://github.com/orderedlist">orderedlist</a>
+        </small>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
