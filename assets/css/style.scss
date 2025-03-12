@@ -40,6 +40,7 @@ nav h2 {
 
 nav a {
   color: oklch(0.858626 0 0);
+  text-wrap: pretty;
 }
 
 nav h1 {
@@ -67,12 +68,14 @@ nav a:hover {
 
 h1,
 h2,
+h3,
 strong {
   color: #eceff4;
 }
 
 a {
   color: #f7d417;
+  text-wrap: nowrap;
 }
 
 a:hover {
