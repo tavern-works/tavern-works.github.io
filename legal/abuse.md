@@ -6,6 +6,10 @@ nest: true
 
 # Use Restrictions
 
+*Last updated: March 12, 2025*
+
+> Adapted from the [Basecamp open-source policies](https://github.com/basecamp/policies) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 ## Restricted purposes
 
 When you use Tavern, you acknowledge that you may not:

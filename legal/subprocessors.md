@@ -8,6 +8,8 @@ nest: true
 
 *Last updated: March 12, 2025*
 
+> Adapted from the [Basecamp open-source policies](https://github.com/basecamp/policies) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 We use third party subprocessors, such as cloud computing providers and payment processors, to run Tavern (as defined in the [privacy policy](privacy.html)). We establish GDPR-compliant data processing agreements with each subprocessor, extending GDPR safeguards everywhere personal data is processed.
 
 The following is a list of personal data subprocessors we use. These subprocessors are all located in the United States:
