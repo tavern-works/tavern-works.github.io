@@ -7,7 +7,7 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
   </head>
   <body>
     <div class="wrapper">
@@ -33,7 +33,9 @@
                 </h2>
               {% endif %}
             {% else %}
-              {% if ordered.url == page.url %}
+              {% if ordered.nolink %}
+                <h1 class="active">{{ ordered.title }}</h1>
+              {% elsif ordered.url == page.url %}
                 <h1 class="active">
                   <a href="{{ordered.url}}">{{ ordered.title }}</a>
                 </h1>

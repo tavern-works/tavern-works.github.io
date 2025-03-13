@@ -37,7 +37,6 @@ header {
   margin-bottom: 40px;
 }
 
-
 nav {
   width: 100%;
   padding-left: 16px;
@@ -99,6 +98,48 @@ h1 a:hover {
 
 code {
   color: #eceff4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+form div {
+  display: flex;
+  gap: 16px;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  color: #eceff4;
+  border-radius: 4px;
+  background-color: #1f1f1f;
+  padding: 8px;
+  border-color: #eceff4;
+  border-width: 1px;
+}
+
+form input[type="email"] {
+  flex-grow: 1;
+}
+
+form input[type="submit"] {
+  transition: background-color 0.15s, border-color 0.15s;
+  background-color: oklch(0.340697 0 0);
+  color: #eceff4;
+  border-color: oklch(0.858626 0 0 / 0.2);
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: oklch(0.440697 0 0);
+  border-color: oklch(0.858626 0 0 / 0.5);
+  cursor: pointer;
 }
 
 @media print, screen and (max-width: 960px) {

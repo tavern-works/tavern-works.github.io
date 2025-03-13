@@ -1,6 +1,6 @@
 ---
 title: Licenses
-order: 7
+order: 9
 nest: true
 ---
 

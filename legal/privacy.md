@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-order: 4
+order: 6
 nest: true
 ---
 

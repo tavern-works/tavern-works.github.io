@@ -1,6 +1,6 @@
 --- 
 title: California Resident Notice at Collection
-order: 5
+order: 7
 nest: true
 ---
 
