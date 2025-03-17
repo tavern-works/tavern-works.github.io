@@ -3,6 +3,8 @@
 
 @import "jekyll-theme-minimal";
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Trade+Winds&display=block");
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add,add_box,archive,backpack,cancel,check,check_circle,chevron_left,chevron_right,close,comment,delete,edit,electric_bolt,error,history_edu,ifl,info,keyboard_arrow_down,keyboard_arrow_up,keyboard_double_arrow_down,keyboard_double_arrow_up,left_click,location_searching,move_item,newsmode,patient_list,place_item,search,sensor_door,square_foot,start,timeline,unarchive&display=block");
 
 body {
   background-color: #1f1f1f;
@@ -94,6 +96,51 @@ a:hover {
 
 h1 a:hover {
   font-weight: bold;
+}
+
+blockquote {
+  font-style: normal;
+}
+
+kbd {
+  display: inline-block;
+  width: min(calc(100vw / 24), 24px);
+  height: min(calc(100vw / 24), 24px);
+  background-color: rgb(168, 162, 158);
+  border-color: rgb(87, 83, 78);
+  color: #1f1f1f;
+  font-size: 87.5%;
+  padding: min(calc(100vw / 120), 5px) 0px 0px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "B612 Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.icon {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150%; /* Preferred icon size */
+  display: inline-block;
+  line-height: 0.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  position: relative;
+  top: 7px;
+  margin: 0px 2px 0px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
