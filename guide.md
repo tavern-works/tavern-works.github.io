@@ -79,6 +79,31 @@ Finally, supporting characters each get a numeric keyboard shortcut, which allow
 
 ## Settings
 
+Clicking the **Settings** text at the bottom of the info panel will expose a list of app settings, described below:
+
+### Map
+
+- **Snap To Grid** &mdash; When this setting is enabled, when a dragged token is dropped, it will snap to the center of the nearest grid cell. Whether this setting is enabled or not, you can get the opposite behavior by holding <kbd>Alt</kbd> or <kbd>Option</kbd> key while dropping the token.
+
+- **Diagonal Mode** &mdash; This setting changes how the measure tool counts diagonal distance. In **1-1-1-1** mode, every diagonal is treated the same as orthogonal movement. In **1-2-1-2** mode, every second instance of diagonal movement takes twice as much movement.
+
+- **Allow Cutting Corners** &mdash; This setting allows tokens to cut corners, which means that they can move diagonally even if there is a corner in one of the orthogonal squares in the direction of that diagonal direction.
+
+### Lighting
+
+- **Lighting Quality**
+    - **Good** &mdash; In this mode, lights only cast hard shadows.
+    - **Better** &mdash; In this mode, lights cast soft shadows (i.e., shadows farther from the object casting the shadow have softer edges).
+    - **Best** &mdash; In this mode, not only do lights cast soft shadows, but light bounces off of walls and around corners. This will cause more CPU usage when moving lights (but not while moving the map), and requires an additional download of lighting data, which is approximately 10MB for the tech demo.
+
+- **Update On Drop** &mdash; When this setting is enabled, a token's light is only updated when the token is dropped (rather than as it moves), which will significantly reduce CPU usage while dragging tokens.
+
+### Renderer
+
+- **Tone Mapping Mode** &mdash; This is just a debugging feature that will let you see a colormap version of the scene luminance (how much light is being produced) instead of the actual light color.
+
+*Back to [Info Panel](#info-panel)* &mdash; *Jump to [Top](#overview)*
+
 # Communication Panel
 
 # Map

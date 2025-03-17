@@ -104,13 +104,13 @@ blockquote {
 
 kbd {
   display: inline-block;
-  width: min(calc(100vw / 24), 24px);
+  width: fit-content;
   height: min(calc(100vw / 24), 24px);
   background-color: rgb(168, 162, 158);
   border-color: rgb(87, 83, 78);
   color: #1f1f1f;
   font-size: 87.5%;
-  padding: min(calc(100vw / 120), 5px) 0px 0px;
+  padding: min(calc(100vw / 100), 6px) min(calc(100vw / 120), 5px) 0px;
   text-align: center;
   box-sizing: border-box;
   font-family: "B612 Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
