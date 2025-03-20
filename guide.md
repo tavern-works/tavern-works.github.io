@@ -261,7 +261,7 @@ When editing fields like conditions and languages that have a pre-existing list 
 
 ### Description Rolls
 
-Some descriptions, such as those for some spells, can have roll buttons embedded in them, like this one for *sacred flame*:
+Some descriptions, such as those for some spells, can have roll buttons embedded in them, like this one for _sacred flame_:
 
 ![sacred flame](assets/images/sacred_flame.webp)
 
@@ -297,8 +297,8 @@ You can make your own [table rolls](#table-rolls) using [table syntax](https://w
 ```markdown
 | [1d2](#table-roll) | Result |
 | :----------------: | :----: |
-| 1                  | Heads  |
-| 2                  | Tails  |
+|         1          | Heads  |
+|         2          | Tails  |
 ```
 
 ### Numeric Fields

@@ -5,7 +5,7 @@ order: 1
 
 # Tavern
 
-Welcome! This is where you can find helpful information about the Tavern virtual tabletop (VTT). This information is currently broken down into three major categories:
+Welcome! This is where you can find helpful information about the [Tavern virtual tabletop (VTT)](https://tavern.works). This information is currently broken down into three major categories:
 
 ## Product
 
