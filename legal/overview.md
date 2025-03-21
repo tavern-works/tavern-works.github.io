@@ -1,5 +1,5 @@
 ---
 title: Legal
-order: 4
+order: 5
 nolink: true
 ---

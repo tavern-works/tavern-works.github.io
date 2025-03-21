@@ -11,6 +11,8 @@ Welcome! This is where you can find helpful information about the [Tavern virtua
 
 The [User Guide](guide.html) explains how to use the VTT itself.
 
+The [Roadmap](roadmap.html) explains what the subscription tiers will eventually look like and what else I need to do to get there.
+
 I also maintain a list of frequently asked questions (FAQ) [here](faq.html).
 
 ## Legal

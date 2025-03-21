@@ -1,6 +1,6 @@
 ---
 title: Use Restrictions Policy
-order: 5
+order: 6
 nest: true
 ---
 
